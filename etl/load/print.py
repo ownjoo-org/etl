@@ -1,6 +1,6 @@
 from typing import AsyncIterable
 
-from load.base import Loader
+from etl.load.base import Loader
 
 
 class PrintLoader(Loader):

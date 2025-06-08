@@ -2,7 +2,7 @@ from typing import Any, AsyncGenerator
 
 from aiohttp import ClientSession
 
-from extract.base import Extractor
+from etl.extract.base import Extractor
 
 
 class RestExtractor(Extractor):

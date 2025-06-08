@@ -1,6 +1,6 @@
 from typing import Any, AsyncIterable, Generator
 
-from transform.base import Transformer
+from etl.transform.base import Transformer
 
 
 class PassThroughTransformer(Transformer):
