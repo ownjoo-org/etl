@@ -1,7 +1,8 @@
 from typing import Any, AsyncGenerator
 
 from aiohttp import ClientSession
-from src.app.etl.extract.base import Extractor
+
+from extract.base import Extractor
 
 
 class RestExtractor(Extractor):

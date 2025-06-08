@@ -1,6 +1,6 @@
 from typing import AsyncIterable, Any, AsyncGenerator
 
-from src.app.etl.load.base import Loader
+from load.base import Loader
 
 
 class PassThroughLoader(Loader):
